@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTest", "ApiTest\ApiTest.csproj", "{8924D9D0-FB1F-4FA8-B8A5-9CD084E84F71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{23EB0FE6-F4EB-46E1-85EF-9144023C55DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Api2Test\Gateway.csproj", "{4C98E5B0-5390-4B14-AC83-890CD6999475}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gateway", "Gateway\Gateway.csproj", "{B5C45C40-818F-4166-A93E-9456931AD81D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMLib.SwaggerForOcelot", "..\..\..\..\..\..\repo\study\MMLib.SwaggerForOcelot\src\MMLib.SwaggerForOcelot\MMLib.SwaggerForOcelot.csproj", "{92F7AA79-B921-4C5B-A5A7-A10CBDB11751}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMLib.SwaggerForOcelot", "SwaggerForOcelot\src\MMLib.SwaggerForOcelot\MMLib.SwaggerForOcelot.csproj", "{74E6A6DB-4CE1-4C7C-89BF-0B69A1EF2D2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8924D9D0-FB1F-4FA8-B8A5-9CD084E84F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8924D9D0-FB1F-4FA8-B8A5-9CD084E84F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8924D9D0-FB1F-4FA8-B8A5-9CD084E84F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8924D9D0-FB1F-4FA8-B8A5-9CD084E84F71}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C98E5B0-5390-4B14-AC83-890CD6999475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C98E5B0-5390-4B14-AC83-890CD6999475}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C98E5B0-5390-4B14-AC83-890CD6999475}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C98E5B0-5390-4B14-AC83-890CD6999475}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92F7AA79-B921-4C5B-A5A7-A10CBDB11751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92F7AA79-B921-4C5B-A5A7-A10CBDB11751}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92F7AA79-B921-4C5B-A5A7-A10CBDB11751}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92F7AA79-B921-4C5B-A5A7-A10CBDB11751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23EB0FE6-F4EB-46E1-85EF-9144023C55DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23EB0FE6-F4EB-46E1-85EF-9144023C55DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23EB0FE6-F4EB-46E1-85EF-9144023C55DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23EB0FE6-F4EB-46E1-85EF-9144023C55DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C45C40-818F-4166-A93E-9456931AD81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C45C40-818F-4166-A93E-9456931AD81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C45C40-818F-4166-A93E-9456931AD81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C45C40-818F-4166-A93E-9456931AD81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E6A6DB-4CE1-4C7C-89BF-0B69A1EF2D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E6A6DB-4CE1-4C7C-89BF-0B69A1EF2D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E6A6DB-4CE1-4C7C-89BF-0B69A1EF2D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E6A6DB-4CE1-4C7C-89BF-0B69A1EF2D2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

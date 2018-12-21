@@ -1,0 +1,46 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 28326
+        }
+      ],
+      "UpstreamPathTemplate": "/teste/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ],
+      "SwaggerKey": "test"
+
+    },
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 28326
+        }
+      ],
+      "UpstreamPathTemplate": "/teste2/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ],
+      "SwaggerKey": "test2"
+
+    }
+  ],
+  "GlobalConfiguration": {
+  },
+  "SwaggerEndPoints": [
+    {
+      "Key": "test",
+      "Name": "Test API",
+      "Url": "http://localhost:28326/swagger/v1/swagger.json"
+    },
+    {
+      "Key": "test2",
+      "Name": "Test API 2",
+      "Url": "http://localhost:28326/swagger/v1/swagger.json"
+    }
+  ]
+}
