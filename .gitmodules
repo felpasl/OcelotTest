@@ -1,0 +1,4 @@
+[submodule "SwaggerForOcelot"]
+	path = SwaggerForOcelot
+	url = https://github.com/felpasl/MMLib.SwaggerForOcelot.git
+	branch = master
